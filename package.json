@@ -1,0 +1,24 @@
+{
+  "name": "node-express-api",
+  "version": "1.0.0",
+  "description": "restful api developed using node express mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hussainmaz/Node-Express-Api.git"
+  },
+  "author": "maz hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hussainmaz/Node-Express-Api/issues"
+  },
+  "homepage": "https://github.com/hussainmaz/Node-Express-Api#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  }
+}
