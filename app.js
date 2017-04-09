@@ -15,8 +15,20 @@ var bookRouter = express.Router();
 //api/books/get
 bookRouter.route('/Books')
     .get(function (req, res) {
-        var responseJson = { hello: "This is my api" };
-        res.json(responseJson);
+
+        var query = {};
+        if (req.query.genre) {
+            query.genre = req.query.genre;
+        }
+        console.log(query);
+
+        Book.find(query, function (err, books) {
+            if (err) {
+                console.log(err);
+            } else {
+                res.json(books)
+            }
+        })
     });
 
 // use book router..Monyou
