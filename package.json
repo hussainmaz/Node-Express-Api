@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hussainmaz/Node-Express-Api#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.2",
